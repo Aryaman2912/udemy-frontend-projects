@@ -1,0 +1,60 @@
+body{
+ 		background: #e6ffff;
+ 	}
+
+ 	.jumbotron{
+ 		height:200px;
+ 		background: #ccffc0;
+ 		border:1px solid black;
+ 		border-radius: 15px;
+ 	}
+
+ 	.navbar{
+ 		background-color: black;
+ 	}
+
+ 	.navbar-default .navbar-nav>li>a {
+ 		color:white;
+ 	}
+
+ 	.navbar-default .navbar-nav>li>a:hover{
+ 		color: white;
+	}
+
+	.navbar-default .navbar-nav>li>a:visited{
+		color:white;
+	}
+
+ 	.navbar-default .navbar-brand{
+ 		color:white;
+ 	}
+
+ 	.navbar-default .navbar-brand a:hover{
+ 		color:white;
+ 	}
+
+ 	.navbar-default .navbar-brand a:visited{
+ 		color:white;
+ 	}
+
+ 	p{
+ 		font-size: 20px;
+ 	}
+
+ 	hr{
+ 		height: 0;
+ 		border:1px solid black;
+ 	}
+
+ 	footer{
+ 		background: black;
+ 		color:white;
+ 	}
+
+ 	footer a{
+ 		color: white;
+ 	}
+
+ 	a:hover{
+ 		color: red;
+ 	}

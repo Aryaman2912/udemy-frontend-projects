@@ -1,0 +1,15 @@
+name		url			verb		description						mongoose method
+===========================================================================================================================================
+INDEX  		/blogs			GET		Display a list of all posts				blog.find()
+
+NEW    		/blogs/new		GET		Display form to make a new post				NA
+
+CREATE 		/blogs			POST		Add new post to the DB,then redirect somewhere else	blog.create()
+
+SHOW   		/blogs/:id		GET		Display more info about a single post			blog.findById
+
+EDIT 		/blogs/:id/edit 	GET		Display form to edit a post				blog.findById
+
+UPDATE		/blogs/:id		PUT		Update post,redirect somewhere else			blog.findByIdAndUpdate
+
+DESTROY  	/blogs/:id		DELETE		Delete a post,then redirect somewhere else		blog.findByIdAndRemove

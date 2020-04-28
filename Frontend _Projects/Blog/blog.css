@@ -1,0 +1,29 @@
+body{
+	border:20px solid #bdc3c7;
+	margin:20px 200px 10px 200px;
+	font-family: 'Source Sans Pro',sans-serif;
+	padding: 30px;
+}
+
+h3{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #3498db;
+}
+
+h2{
+	font-weight:bold;
+	font-size:35px;
+}
+	
+.p1{
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+hr{
+	border: 0;
+	height: 0;
+	border-bottom:1px solid rgba(255,255,255,0.3);
+	border-top: 1px solid rgba(0,0,0,0.1);
+}
